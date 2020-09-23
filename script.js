@@ -25,6 +25,7 @@ checkBtn.addEventListener('click', () => {
 	if (result == userCaptchaValue) {
 		checkBtn.innerHTML = 'Success';
 		window.alert('Captcha Success');
+		location.reload();
 	}
 	else {
 		alert('Please Check Your Captcha');
