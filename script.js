@@ -15,7 +15,7 @@ switch (randomArrIndex) {
 		result = num1 - num2;
 		break;
 }
-console.log(num1, num2, result, operator[randomArrIndex]);
+
 captcha.innerHTML = num1 + operator[randomArrIndex] + num2;
 
 checkBtn.addEventListener('click', () => {
